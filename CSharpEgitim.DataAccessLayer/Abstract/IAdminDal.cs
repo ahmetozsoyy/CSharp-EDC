@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CSharpEgitim.DataAccessLayer.Abstract
 {
-    internal interface IAdminDal: IGenericDal<Admin>
+    public interface IAdminDal: IGenericDal<Admin>
     {
     }
 }

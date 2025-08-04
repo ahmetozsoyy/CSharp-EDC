@@ -21,6 +21,7 @@ namespace CSharpEgitim.BusinessLayer.Concrete
         public void TDelete(Customer entity)
         {
             _customerDal.Delete(entity);
+        }
 
         public List<Customer> TGetAll()
         {

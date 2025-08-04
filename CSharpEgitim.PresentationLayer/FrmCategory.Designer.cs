@@ -69,6 +69,7 @@
             this.btnList.TabIndex = 2;
             this.btnList.Text = "Listele";
             this.btnList.UseVisualStyleBackColor = false;
+            this.btnList.Click += new System.EventHandler(this.btnList_Click);
             // 
             // dataGridView1
             // 
@@ -135,6 +136,7 @@
             this.btnAdd.TabIndex = 10;
             this.btnAdd.Text = "Ekle";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnDelete
             // 
@@ -145,6 +147,7 @@
             this.btnDelete.TabIndex = 11;
             this.btnDelete.Text = "Sil";
             this.btnDelete.UseVisualStyleBackColor = false;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -155,6 +158,7 @@
             this.btnUpdate.TabIndex = 12;
             this.btnUpdate.Text = "Güncelle";
             this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnGetById
             // 
@@ -165,12 +169,13 @@
             this.btnGetById.TabIndex = 13;
             this.btnGetById.Text = "ID\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = false;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // FrmCategory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(815, 409);
+            this.ClientSize = new System.Drawing.Size(863, 450);
             this.Controls.Add(this.btnGetById);
             this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);

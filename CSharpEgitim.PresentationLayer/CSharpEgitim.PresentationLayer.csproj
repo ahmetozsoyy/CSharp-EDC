@@ -62,10 +62,19 @@
     <Compile Include="FrmCategory.Designer.cs">
       <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProduct.Designer.cs">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCategory.resx">
       <DependentUpon>FrmCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProduct.resx">
+      <DependentUpon>FrmProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -94,6 +103,14 @@
     <ProjectReference Include="..\CSharpEgitim.BusinessLayer\CSharpEgitim.BusinessLayer.csproj">
       <Project>{1f2fd8c7-9adb-4912-9107-6724cc146bad}</Project>
       <Name>CSharpEgitim.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitim.DataAccessLayer\CSharpEgitim.DataAccessLayer.csproj">
+      <Project>{53E4B29D-9BED-4DAA-B085-3C620CE80B4F}</Project>
+      <Name>CSharpEgitim.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CSharpEgitim.EntityLayer\CSharpEgitim.EntityLayer.csproj">
+      <Project>{1A3913AA-1E86-4C03-81BB-A3BA428149D5}</Project>
+      <Name>CSharpEgitim.EntityLayer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
