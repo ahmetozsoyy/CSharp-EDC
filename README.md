@@ -1,0 +1,1 @@
+This project was created to understand and write in C# in general, incorporating the concepts of Migration, Entity Framework, Entity State, and Dependency Injection in accordance with multi-layered architecture.
